@@ -17,7 +17,7 @@ git clone https://github.com/your-username/vue-currency-converter.git
 2. Перейдите в каталог проекта:
 
 ```bash
-cd vue-currency-converter
+cd vue3-jest-currency-converter
 ```
 
 3. Установите зависимости:
