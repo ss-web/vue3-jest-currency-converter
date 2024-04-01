@@ -2,9 +2,9 @@ import { mount } from "@vue/test-utils";
 import { createPinia, setActivePinia } from "pinia";
 import { createApp } from "vue";
 
-import { i18n, setupI18n } from "../src/plugins/i18n";
-import { useCurrencyStore } from "../src/store";
-import CurrencyConverter from "../src/views/CurrencyConverter.vue";
+import { i18n, setupI18n } from "../plugins/i18n";
+import { useCurrencyStore } from "../store";
+import CurrencyConverter from "../views/CurrencyConverter.vue";
 
 describe("setupI18n", () => {
   it("should add $t to global Vue properties", () => {
